@@ -21,7 +21,7 @@
 
 {\noindent\Huge\bfseries 3 Kennlinien \\[0.5\baselineskip] elekrtischer Leiter}\\[2\baselineskip] % Title
 {\large \textit{17. November 2016}}\\[4\baselineskip] % Tagline or further description
-{\Large \textsc{Lukas Bühler, Jérôme Landtwing}} % Author name
+{\Large \textsc{Lukas Bühler, Jérôme Landtwing (M4a)}} % Author name
 
 \vspace{0.5\textheight} % Whitespace between the title block and the publisher
 {\noindent Markus Hägi, KSA  }\\[\baselineskip] % Publisher and logo
@@ -48,10 +48,11 @@ Für die erste Messreihe besass das Ucon-Öl Zimmertemperatur.
 Unsere Messergebnisse sehen wie folgt aus:
 \begin{table}[!h]
 	\centering
-	\begin{tabular}{c | c | c | c | c | c | c | c} 
-		Spannung U & 0.0 & 0.6 & 1.2 & 1.8 & 2.5 & 3.1 & gemessen in [V]\\ 
+	\begin{tabular}{c | c | c | c | c | c | c | c }
+		Spannung U & 0.0 & 0.6 & 1.2 & 1.8 & 2.5 & 3.1 & gemessen in [V] \\ 
 		Stromstärke I & 0.0 & 70  & 130 & 203 & 268 & 345 & gemessen in [mA]\\
 	\end{tabular}
+	Fehlerrechnung U: $±0.1$V, I: $±0.5$mA 
 	\caption{Messwerte bei Zimmertemperatur}
 \end{table}
 
@@ -59,21 +60,22 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 %--------------------------------------------------------------------------------------
 %--------------------------------------------------------------------------------------
 \subsection*{Messergebnisse bei 70$^\circ C$}
-\begin{equation} \vartheta_2 = 70^\circ C \end{equation}
+\begin{equation} \vartheta_2 = 70^\circ C ± 1.5^\circ C \end{equation}
 Unsere Messergebnisse sehen wie folgt aus:
 \begin{table}[!h]
 	\centering
 	\begin{tabular}{c | c | c | c | c | c | c | c} 
-		Spannung U  & 0.0 & 0.6 & 1.2 & 1.7 & 2.4 & 3.1 & gemessen in [V]\\ 
-		Stromstärke I & 0.0 & 56  & 113 & 153 & 215 & 275 & gemessen in [mA]\\
+		Spannung U  & 0.0 & 0.6 & 1.2 & 1.7 & 2.4 & 3.1 & gemessen in [V] \\ 
+		Stromstärke I & 0.0 & 56  & 113 & 153 & 215 & 275 & gemessen in [mA] \\
 	\end{tabular}
-	\caption{Messwerte bei $70^\circ C$}
+	Fehlerrechnung U: $±0.1$V, I: $±0.5$mA 
+	\caption{Messwerte bei $70^\circ C ± 1.5^\circ C$}
 \end{table}
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 %--------------------------------------------------------------------------------------
 %--------------------------------------------------------------------------------------
-\subsection*{Messergebnisse bei 120$^\circ C$}
-\begin{equation} \vartheta_3 = 120^\circ C \end{equation}
+\subsection*{Messergebnisse bei $120^\circ C$}
+\begin{equation} \vartheta_3 = 120^\circ C ± 2^\circ C \end{equation}
 Unsere Messergebnisse sehen wie folgt aus:
 \begin{table}[!h]
 	\centering
@@ -81,7 +83,8 @@ Unsere Messergebnisse sehen wie folgt aus:
 		Spannung U  & 0.0 & 0.6 & 1.2 & 1.8 & 2.5 & 3.2 & gemessen in [V]\\ 
 		Stromstärke I & 0.0 & 44  & 88 & 130 & 185 & 235 & gemessen in [mA]\\
 	\end{tabular}
-	\caption{Messwerte bei $120^\circ C$}
+	Fehlerrechnung U: $±0.1$V, I: $±0.5$mA 
+	\caption{Messwerte bei $120^\circ C ± 2^\circ C$}
 \end{table}
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 %--------------------------------------------------------------------------------------
@@ -95,6 +98,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 	\item $\vartheta_1$ Steigung = 110
 	\item $\vartheta_2$ Steigung = 90
 	\item $\vartheta_3$ Steigung = 73.5
+	\item Werte berechnet durch Mittelwert der Steigung aller Punkte
 \end{itemize}
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 %--------------------------------------------------------------------------------------
@@ -146,22 +150,29 @@ So sehen unsere Messergebnisse aus:  \\
 
 \begin{table}[!h]
 	\centering
-	\begin{tabular}{c | c | c | c | c | c | c | c | c} 
+	\begin{tabular}{c | c | c | c | c | c | c | c | c } 
 		Spannung U & 0.0 & 39.8 & 80.4 & 120 & 160 & 200 & 240 & gemessen in [V]\\ 
 		Stromstärke I & 0.0 & 0.115  & 0.156 & 0.19 & 0.22 & 0.248 & 0.272 & gemessen in [A]\\
 		Widerstand R & R & R & R & R & R & R & R & \\
 	\end{tabular}
-	\caption{Spannung und Stromstärke der Glühlampe}
+	Fehlerrechnung: U: $± 1$V, I: $±001$A
+	\caption{Spannung und Stromstärke der Glühlampe Fehlerrechung}
 \end{table}
+\begin{figure}[!h]
+	\centering
+	\includegraphics{kennlinie_vergleich}
+	\caption{unsere Messergebnisse}
+\end{figure}
 \begin{equation} \sqrt[4]{P} = \sqrt[4]{U\cdot I} \end{equation}
 
 %----------------------------------------------------------------------------
 \begin{table}[!h]
 	\centering
-	\begin{tabular}{c | c | c | c | c | c | c | c | c} 
-		Spannung U & 0.0 & 40 & 81 & 120 & 160 & 201 & 240 & gemessen in [V]\\ 
+	\begin{tabular}{c | c | c | c | c | c | c | c | c }
+		Spannung U & 0.0 & 40 & 81 & 120 & 160 & 201 & 240 & gemessen in [V] \\ 
 		Stromstärke I & 0.0 & 0.042 & 0.081 & 0.122 & 0.17 & 0.221 & 0.275 & gemessen in [A]\\
 	\end{tabular}
+	Fehlerrechnung: U: $± 1$V, I: $±001$A
 	\caption{Spannung und Stromstärke der Kohlenfadenlampe}
 \end{table}
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -172,12 +183,20 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 \section*{Glimmlampe}
 \begin{table}[!h]
 	\centering
-	\begin{tabular}{c | c | c | c | c | c | c | c | c | c | c | c | c | c} 
-		U & 0.0 & 40.3 & 80 & 100 & 105 & 110 & 115 & 120 & 125 & 130 & 135 & 140 & gemessen in [V]\\ 
-		I & 0.0 & 0.07 & 0.09 & 0.09 & 0.44 & 0.61 & 0.81 & 1.02 & 1.24 & 1.5 & 1.74& 2.02 & gemessen in [mA?]\\
+	\begin{tabular}{c | c | c | c | c | c | c | c | c | c | c | c | c | c }
+		U & 0.0 & 40.3 & 80 &100 & 105 & 110 & 115 & 120 & 125 & 130 & 135 & 140 & gemessen in [V] \\ 
+		I  & 0.0 & 0.07 & 0.09 & 0.09 & 0.44 & 0.61 & 0.81 & 1.02 & 1.24 & 1.5 & 1.74& 2.02 & gemessen in [mA] \\
 	\end{tabular}
-	\caption{Spannung und Stromstärke der Glimmlampe eventuell 40er und 80er Werte rausschmeissen}
+	Fehlerrechnung: U: $± 0.5$V, I: $±0.05$A
+	\caption{Wertepaare bis 140V}
 \end{table}
+
+\begin{figure}
+	\centering
+	\includegraphics{kennlinie_glimmlampe_mA}
+	\caption{Visualisierung unserer Messergebnisse}
+\end{figure}
+
 
 
 

@@ -1,0 +1,42 @@
+gnuplot
+
+set terminal postscript eps enhanced color font "Helvetica,10"
+set encoding iso_8859_1
+
+set bar 1.000000 front
+set style circle radius graph 0.02, first 0.00000, 0.00000 
+set style ellipse size graph 0.05, 0.03, first 0.00000 angle 0 units xy
+set key inside right top vertical Right noreverse enhanced autotitle box lt black linewidth 1.000 dashtype solid
+set style textbox transparent margins  1.0,  1.0 border
+unset logscale
+set style data lines
+unset paxis 1 tics
+unset paxis 2 tics
+unset paxis 3 tics
+unset paxis 4 tics
+unset paxis 5 tics
+unset paxis 6 tics
+unset paxis 7 tics
+set title font ",20"
+
+set paxis 1 range [ * : * ] noreverse nowriteback
+set paxis 2 range [ * : * ] noreverse nowriteback
+set paxis 3 range [ * : * ] noreverse nowriteback
+set paxis 4 range [ * : * ] noreverse nowriteback
+set paxis 5 range [ * : * ] noreverse nowriteback
+set paxis 6 range [ * : * ] noreverse nowriteback
+set paxis 7 range [ * : * ] noreverse nowriteback
+set colorbox vertical origin screen 0.9, 0.2, 0 size screen 0.05, 0.6, 0 front  noinvert bdefault
+
+x = 0.0
+S = 1
+n1(x) = sqrt(a*x)+b
+n2(x) = d*x
+
+
+fit n1(x) '/Users/Jerome/Desktop/Schule/Physik/Praktikas/elektrLeiter/Gluehlame.dat' using 1:2 via a,b
+fit n2(x) '/Users/Jerome/Desktop/Schule/Physik/Praktikas/elektrLeiter/Kohlenfadenlampe.dat' using 1:2 via d
+set output ‚curvefitting.eps'
+plot [0:245] "/Users/Jerome/Desktop/Schule/Physik/Praktikas/elektrLeiter/Gluehlame_Kohlenfadenlampe.dat" t "Messpunkte" with xyerrorbars, n1(x) t „Gl\374hlampe“, n2(x) t „Kohlenfadenlampe“
+
+

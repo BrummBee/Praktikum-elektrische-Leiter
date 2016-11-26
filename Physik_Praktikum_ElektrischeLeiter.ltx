@@ -134,6 +134,7 @@ Daraus folgen die folgenden Widerstände:
 %--------------------------------------------------------------------------------------
 %--------------------------------------------------------------------------------------
 Spezifische Widerstandswerte des Eisens
+\textcolor{red}{Tabelle, Widerstandswerte bei verschiedenen Temperaturen?}
 \begin{equation} \rho = \frac{RA}{l} \end{equation}
 daraus folgt:
 \begin{itemize}
@@ -166,18 +167,20 @@ Wir hatten genügend Zeit, zwei der drei Wahlversuche durchzuführen.
 So sehen unsere Messergebnisse aus:  \\
 \begin{table}[!h]
 	\centering
-	\begin{tabular}{c | c | c | c | c | c | c | c | c } 
-		Spannung U & 0.0 & 39.8 & 80.4 & 120 & 160 & 200 & 240 & gemessen in [V]\\ 
-		Stromstärke I & 0.0 & 0.115  & 0.156 & 0.19 & 0.22 & 0.248 & 0.272 & gemessen in [A]\\
+	\begin{tabular}{c | c | c | c | c | c | c | c | c }
+		%Glühlampe 
+		Spannung U 	& 0.0 & 39.8 	& 80.4 	& 120 	& 160 	& 200 	& 240 	& gemessen in [V]\\ 
+		Stromstärke I 	& 0.0 & 0.115  	& 0.156 	& 0.190 	& 0.220 	& 0.248 	& 0.272 	& gemessen in [A]\\
 		Widerstand R & R & R & R & R & R & R & R & \\
 	\end{tabular}
 	Fehlerrechnung: U: $± 1$V, I: $±001$A
 	\caption{Spannung und Stromstärke der Glühlampe}
 	\begin{tabular}{c | c | c | c | c | c | c | c | c }
-		Spannung U & 0.0 & 40 & 81 & 120 & 160 & 201 & 240 & gemessen in [V] \\ 
-		Stromstärke I & 0.0 & 0.042 & 0.081 & 0.122 & 0.17 & 0.221 & 0.275 & gemessen in [A]\\
+		%Kohlenfadenlampe
+		Spannung U 	& 0.0 & 40.0	& 81.0 	& 120 	& 160 	& 201 	& 240 	& gemessen in [V] \\ 
+		Stromstärke I 	& 0.0 & 0.042 	& 0.081 	& 0.122 	& 0.170 	& 0.221 	& 0.275 	& gemessen in [A]\\
 	\end{tabular}
-	Fehlerrechnung: U: $± 1$V, I: $±001$A
+	Fehlerrechnung: U: $± 1$V, I: $±0.001$A
 	\caption{Spannung und Stromstärke der Kohlenfadenlampe}
 \end{table}
 \begin{figure}[!h]
@@ -195,13 +198,13 @@ Wir haben unsere Messwerte in die Formeln \ref{Widerstand} und \ref{Leistung} ei
 	\centering
 	\begin{tabular}{c | c | c | c | c | c | c | c | c } 
 		%Glühlampe
-		Widerstand R 	& 0		& 346.08 	& 515.38	& 631.57 	& 727.27	& 806.451 & 882.35	& [$\Omega$]	\\ 
-		Leistung P	& 0		& 4.577	& 12.542 	& 22.8	& 35.2	& 49.6	& 65.28	& [W] 		\\
-		$\sqrt[4]{P}$   	& 0		& 1.46266	&1.88189	&2.18516	& 2.4357	& 2.6538	& 2.8424	& [Einheit?] \\	
+		Widerstand R 	& 0		& 346 	& 515	& 632 	& 727	& 806 & 882		& [$\Omega$]	\\ 
+		Leistung P	& 0		& 4.57	& 12.5 	& 22.8	& 35.2	& 49.6	& 65.3	& [W] 		\\
+		$\sqrt[4]{P}$   	& 0		& 1.46	&1.88	&2.19	& 2.44	& 2.65	& 2.84	& [Einheit?] \\	
 	\end{tabular}
 	Fehlerrechnung: R: $± \Omega$ I: $±$W
 	\textcolor{red}{Genauigkeit, wie viele Stellen? Fehlerschranken?, $\sqrt[4]{P}$ auch in Tabelle aufführen?}
-	\caption{Widerstand und Leistung der Glühlampe}
+	\caption{Widerstand und Leistung der Glühlampe \textcolor{red}{Angabe mit 3 Signifikanten Ziffern}}
 \end{table}
 
 %----------------------------------------------------------------------------

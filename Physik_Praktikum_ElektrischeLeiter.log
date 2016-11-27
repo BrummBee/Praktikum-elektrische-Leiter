@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.3)  26 NOV 2016 14:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.3)  27 NOV 2016 20:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -242,20 +242,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \tf@toc=\write3
 \openout3 = `Physik_Praktikum_ElektrischeLeiter.toc'.
 
- [2]
-Underfull \hbox (badness 10000) in paragraph at lines 52--57
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-[3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 119.
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 53--58
+
+ []
+
+[3] [4]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 120.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
- [4]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
 Package epstopdf Info: Source file: <Eisendraht.eps>
 (epstopdf)                    date: 2016-11-23 18:08:31
 (epstopdf)                    size: 32302 bytes
@@ -264,31 +283,31 @@ Package epstopdf Info: Source file: <Eisendraht.eps>
 (epstopdf)                    size: 10324 bytes
 (epstopdf)             Command: <repstopdf --outfile=Eisendraht-eps-converted-t
 o.pdf Eisendraht.eps>
-(epstopdf)             \includegraphics on input line 148.
+(epstopdf)             \includegraphics on input line 147.
 Package epstopdf Info: Output file is already uptodate.
 
 <Eisendraht-eps-converted-to.pdf, id=29, 361.35pt x 252.945pt>
 File: Eisendraht-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Eisendraht-eps-converted-to.pdf>
-Package pdftex.def Info: Eisendraht-eps-converted-to.pdf used on input line 148
+Package pdftex.def Info: Eisendraht-eps-converted-to.pdf used on input line 147
 .
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 
-Overfull \hbox (16.34912pt too wide) in paragraph at lines 148--149
+Overfull \hbox (16.34912pt too wide) in paragraph at lines 147--148
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5]
-Overfull \hbox (42.22289pt too wide) in paragraph at lines 170--177
+[5] [6 <./Eisendraht-eps-converted-to.pdf>]
+Overfull \hbox (40.44511pt too wide) in paragraph at lines 173--179
  [][] 
  []
 
 
-Overfull \hbox (40.44511pt too wide) in paragraph at lines 178--184
+Overfull \hbox (40.44511pt too wide) in paragraph at lines 180--186
  [][] 
  []
 
@@ -300,29 +319,55 @@ Package epstopdf Info: Source file: <kennlinie_vergleich.eps>
 (epstopdf)                    size: 9521 bytes
 (epstopdf)             Command: <repstopdf --outfile=kennlinie_vergleich-eps-co
 nverted-to.pdf kennlinie_vergleich.eps>
-(epstopdf)             \includegraphics on input line 188.
+(epstopdf)             \includegraphics on input line 190.
 Package epstopdf Info: Output file is already uptodate.
-<kennlinie_vergleich-eps-converted-to.pdf, id=33, 361.35pt x 252.945pt>
+<kennlinie_vergleich-eps-converted-to.pdf, id=44, 361.35pt x 252.945pt>
 File: kennlinie_vergleich-eps-converted-to.pdf Graphic file (type pdf)
 
 <use kennlinie_vergleich-eps-converted-to.pdf>
 Package pdftex.def Info: kennlinie_vergleich-eps-converted-to.pdf used on input
- line 188.
+ line 190.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 
-Overfull \hbox (16.34912pt too wide) in paragraph at lines 188--189
+Overfull \hbox (16.34912pt too wide) in paragraph at lines 190--191
  [][] 
  []
 
-[6 <./Eisendraht-eps-converted-to.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7 <./kennlinie_vergleich-eps-converted-to.pdf>]
-Overfull \hbox (112.55632pt too wide) in paragraph at lines 221--226
+Package epstopdf Info: Source file: <Widerstand_leistung.eps>
+(epstopdf)                    date: 2016-11-27 18:52:42
+(epstopdf)                    size: 27229 bytes
+(epstopdf)             Output file: <Widerstand_leistung-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-11-27 18:54:10
+(epstopdf)                    size: 7685 bytes
+(epstopdf)             Command: <repstopdf --outfile=Widerstand_leistung-eps-co
+nverted-to.pdf Widerstand_leistung.eps>
+(epstopdf)             \includegraphics on input line 213.
+Package epstopdf Info: Output file is already uptodate.
+<Widerstand_leistung-eps-converted-to.pdf, id=45, 361.35pt x 252.945pt>
+File: Widerstand_leistung-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Widerstand_leistung-eps-converted-to.pdf>
+Package pdftex.def Info: Widerstand_leistung-eps-converted-to.pdf used on input
+ line 213.
+(pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
+
+Overfull \hbox (30.23805pt too wide) in paragraph at lines 213--214
+ [][]\OT1/cmr/m/n/10 [!h] 
+ []
+
+[7]
+Overfull \hbox (112.55632pt too wide) in paragraph at lines 228--233
  [][] 
  []
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8 <./kennlinie_vergleich-eps-converted-to.pdf>] [9 <./Widerstand_leistung-eps-
+converted-to.pdf>]
 Package epstopdf Info: Source file: <kennlinie_glimmlampe_mA.eps>
 (epstopdf)                    date: 2016-11-23 17:54:36
 (epstopdf)                    size: 27438 bytes
@@ -332,28 +377,29 @@ df>
 (epstopdf)                    size: 8399 bytes
 (epstopdf)             Command: <repstopdf --outfile=kennlinie_glimmlampe_mA-ep
 s-converted-to.pdf kennlinie_glimmlampe_mA.eps>
-(epstopdf)             \includegraphics on input line 231.
+(epstopdf)             \includegraphics on input line 238.
 Package epstopdf Info: Output file is already uptodate.
-<kennlinie_glimmlampe_mA-eps-converted-to.pdf, id=51, 361.35pt x 252.945pt>
+
+<kennlinie_glimmlampe_mA-eps-converted-to.pdf, id=67, 361.35pt x 252.945pt>
 File: kennlinie_glimmlampe_mA-eps-converted-to.pdf Graphic file (type pdf)
 
 <use kennlinie_glimmlampe_mA-eps-converted-to.pdf>
 Package pdftex.def Info: kennlinie_glimmlampe_mA-eps-converted-to.pdf used on i
-nput line 231.
+nput line 238.
 (pdftex.def)             Requested size: 361.34912pt x 252.94438pt.
 
-Overfull \hbox (16.34912pt too wide) in paragraph at lines 231--232
+Overfull \hbox (16.34912pt too wide) in paragraph at lines 238--239
  [][] 
  []
 
-[8] [9 <./kennlinie_glimmlampe_mA-eps-converted-to.pdf>]
+[10 <./kennlinie_glimmlampe_mA-eps-converted-to.pdf>]
 (./Physik_Praktikum_ElektrischeLeiter.aux) ) 
 Here is how much of TeX's memory you used:
- 2763 strings out of 493014
- 38096 string characters out of 6133352
- 110258 words of memory out of 5000000
- 6245 multiletter control sequences out of 15000+600000
- 9978 words of font info for 36 fonts, out of 8000000 for 9000
+ 2771 strings out of 493014
+ 38331 string characters out of 6133352
+ 111258 words of memory out of 5000000
+ 6251 multiletter control sequences out of 15000+600000
+ 10330 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,15n,23p,846b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist
@@ -366,16 +412,19 @@ ts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmti12.pfb>
-Output written on Physik_Praktikum_ElektrischeLeiter.pdf (9 pages, 182666 bytes
-).
+public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti8.pfb>
+Output written on Physik_Praktikum_ElektrischeLeiter.pdf (10 pages, 220935 byte
+s).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 130 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -34,7 +34,7 @@
 
 \begin{document}
 
-\pagestyle{empty} % Removes page numbers
+\thispagestyle{empty} % Removes page numbers
 \titleGM % This command includes the title page
 \tableofcontents
 
@@ -107,6 +107,11 @@ Unsere Messergebnisse sehen wie folgt aus:
 	Fehlerrechnung U: $±0.1$V, I: $±0.5$mA 
 	\caption{Messwerte bei $120^\circ C ± 2^\circ C$}
 \end{table}
+\begin{figure}[!h]
+	\centering
+	\includegraphics{Eisendraht}
+	\caption{Kennlinien des untersuchten Eisendrahtes bei verschiedenen Temperaturen}
+\end{figure}
 %--------------------------------------------------------------------------------------
 %
 % 
@@ -142,11 +147,7 @@ Die Abmessungen des Drahtes waren: $l = 5.3m ± 0.1m, d = 0.3mm ±0.1mm$. Also ist
 	\item $\rho_3 = (1.8 ± 0.5)  \cdot 10^{-7}$ $ \Omega m$
 \end{itemize}
 Vergleich mit dem Literaturwert: In unserer Formelsammlung\footnote{Byland, Samuel: \emph{Formeln, Tabellen, Begriffe} (2. Auflage, S. 194). Zürich: Orell Füssli Verlag.}, haben wir für den spezifischen elektrischen Widerstand bei Raumtemperatur (20°C) den folgenden Wert gefunden: $11.5 \cdot 10^{-8}$ $\Omega m$. Dieser Wert liegt recht nahe an dem von uns berechneten Wert. \\
-\begin{figure}[!h]
-	\centering
-	\includegraphics{Eisendraht}
-	\caption{Kennlinien des untersuchten Eisendrahtes bei verschiedenen Temperaturen}
-\end{figure}
+
 %--------------------------------------------------------------------------------------
 %--------------------------------------------------------------------------------------
 \subsection*{Temperaturkoeffizienten}
@@ -185,7 +186,7 @@ So sehen unsere Messergebnisse aus:  \\
 	Fehlerrechnung: U: $± 1$V, I: $±0.001$A
 	\caption{Spannung und Stromstärke der Kohlenfadenlampe}
 \end{table}
-\begin{figure}[!h]
+\begin{figure}[H]
 	\centering
 	\includegraphics{kennlinie_vergleich}
 	\caption{unsere Messergebnisse, dargestellt als Grafik}
@@ -212,11 +213,12 @@ Wir haben unsere Messwerte in die Formeln \ref{Widerstand} und \ref{Leistung} ei
 	\centering
 	\includegraphics{Widerstand_leistung}[!h]
 	\caption{Unsere Rechenwerte als Grafik dargestellt}
-\end{figure}
+\end{figure} \newpage
 
 %----------------------------------------------------------------------------
 
 \subsubsection{Diskussion}
+Unsere Resultate zeigten bei der Glühlampe und der Kohlenfadenlampe Unterschiede des Widerstandes bei verschiedenen Spannungen. Bei der Kohlenfadenlampe nahm der Widerstand proportional zur Spannung zu, was bei der Glühlampe nicht der Fall war. Der elektrische Widerstand der Glühlampe nahm nicht proportional zur Spannung zu, er nahm mehr bei tieferen Spannung weniger zu und bei höheren Spannungen nahm er mehr zu. Man könnte auch sagen, dass die Glühlampe den elektrischen Strom bei höheren Spannungen schlechter leitete, als bei tieferen. Bei der Kohlenfadenlampe war das Gegenteil der Fall, bei tieferen Temperaturen leitete sie schlechter als bei Höheren. Diese Beobachtungen lassen sich leicht erklären, denn Leiter aus Kohlenstoff sind Heissleiter und Metalle sind Kaltleiter. Heissleiter leiten den elektrischen Strom besser, bei höheren Temperaturen, als bei Tieferen und bei den Kaltleitern ist das exakte Gegenteil der Fall. 
 %
 %
 %-------------------------------------
